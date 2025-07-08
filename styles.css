@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #141414;
+}
+
+header.hero {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header.hero input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+header.hero button {
+    background: #7EBEE3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section.benefits {
+    padding: 30px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+section.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.benefits li {
+    margin: 10px 0;
+}
+
+section.testimonial {
+    padding: 30px 20px;
+    background: #e6f4f1;
+    text-align: center;
+}
+
+footer {
+    background: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
